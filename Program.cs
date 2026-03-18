@@ -22,6 +22,24 @@ class Program
     }
 
  
+    static void DisplayMenu(string libraryName)
+    {
+        Console.Clear();
+        Console.WriteLine("=== Library Management System ===");
+        Console.WriteLine($"Library: {libraryName}");
+        Console.WriteLine();
+        Console.WriteLine("1. Add New Book");
+        Console.WriteLine("2. Display All Books");
+        Console.WriteLine("3. Search Book by Title");
+        Console.WriteLine("4. Search Books by Author");
+        Console.WriteLine("5. Display Books by Category");
+        Console.WriteLine("6. Borrow a Book");
+        Console.WriteLine("7. Return a Book");
+        Console.WriteLine("8. Display Library Statistics");
+        Console.WriteLine("9. Exit");
+        Console.Write("  Enter your choice: ");
+    }
+
 }
 
 } 
